@@ -1,7 +1,7 @@
 public class Mult {
   public static void main(String[] args) {
     try {
-    mult("1121", "126");
+    mult("323", "434");
     }
     catch(Exception e) {
     	System.out.println("Некоректне введення даних");
@@ -44,8 +44,9 @@ public class Mult {
          mas2[k] = step;  
          if(mas2[k] != 0) {
              System.out.println("           " + mas2[k]);
+             k++;
          }
-         k++;
+        
     
          
       case 1:    
@@ -54,8 +55,9 @@ public class Mult {
          mas2[k] = step;
          if(mas2[k] != 0) {
          System.out.println("          " + mas2[k]);
-         }
          k++;
+         }
+        
          
          
       case 2: 
